@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\JeBouquine\JeBouquine.web\bin\JeBouquine.web.dll.config
+c:\users\user\documents\visual studio 2013\Projects\JeBouquine\JeBouquine.web\bin\JeBouquine.web.dll
+c:\users\user\documents\visual studio 2013\Projects\JeBouquine\JeBouquine.web\bin\JeBouquine.web.pdb
+c:\users\user\documents\visual studio 2013\Projects\JeBouquine\JeBouquine.web\obj\Debug\JeBouquine.web.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\JeBouquine\JeBouquine.web\obj\Debug\JeBouquine.web.dll
+c:\users\user\documents\visual studio 2013\Projects\JeBouquine\JeBouquine.web\obj\Debug\JeBouquine.web.pdb
