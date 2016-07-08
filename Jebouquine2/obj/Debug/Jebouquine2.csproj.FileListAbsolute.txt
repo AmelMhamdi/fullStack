@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\Jebouquine2\Jebouquine2\bin\Jebouquine2.dll.config
+c:\users\user\documents\visual studio 2013\Projects\Jebouquine2\Jebouquine2\bin\Jebouquine2.dll
+c:\users\user\documents\visual studio 2013\Projects\Jebouquine2\Jebouquine2\bin\Jebouquine2.pdb
+c:\users\user\documents\visual studio 2013\Projects\Jebouquine2\Jebouquine2\obj\Debug\Jebouquine2.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\Jebouquine2\Jebouquine2\obj\Debug\Jebouquine2.dll
+c:\users\user\documents\visual studio 2013\Projects\Jebouquine2\Jebouquine2\obj\Debug\Jebouquine2.pdb
