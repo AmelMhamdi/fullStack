@@ -3,8 +3,8 @@
  */
 var nodeController = require('../controller');
 describe("IsConnected", function(){
+    this.simpleMath = new SimpleMath();
     it("should connected by user", function () {
-        var connected = nodeController.IsConnected2();
-        expect(connected).toBe(false);
+        expect(this.simpleMath.getFactorial(1)).toBe(1);
     })
 })
