@@ -15,8 +15,6 @@ app.controller('mainControleur', [
     $scope.logout = function () {
         $http.post("/Logout").success(function(r){
         })
-        $('#usernameMenu').css({display: none});
-        $('#logout').css({display: none});
     }
 
     //Active button in Menu
@@ -39,9 +37,6 @@ app.controller('mainControleur', [
             }
             else{
                 $scope.User = r;
-                $('#usernameMenu').html("Bonjour "+$scope.User.Nom+" "+$scope.User.Prenom);
-                $('#usernameMenu').css({"font-size": "20px", color: "#ff0b5c", "margin": "10px 0"});
-                $('#logout').html("<a ng-click='logout()' class='btn'>D&eacute;connecter</a>");
             }
         });
 
@@ -129,16 +124,6 @@ app.controller('DetailControleur', function ($scope, $routeParams, LivresService
 
 app.controller('LivresControleur', function ($scope, LivresService, PanierService, $routeParams, filterFilter) {
     $scope.Livres = [];
-
-    //Menu height inherited document height
-    $scope.widthDoc = $("#navbar").height();
-    $scope.$watch('widthDoc', function (newVal, oldVal) {
-        if($( document  ).width()>768){
-            $("#navbar").height(0);
-            $scope.widthDoc = $( document  ).height();
-            $("#navbar").height( $scope.widthDoc);}
-    });
-
 
     $scope.promise = LivresService.RecupererLivres()
         .success(function (data, status, headers, config) {

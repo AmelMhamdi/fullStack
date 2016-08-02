@@ -32,5 +32,5 @@ app.post('/Login', contoller.Login);
 app.post('/Logout', contoller.Logout);
 app.get('/IsConnected', contoller.IsConnected);
 
-app.listen(8080);
+app.listen(3030);
 //console.log("server running on port 3000");

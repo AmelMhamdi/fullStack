@@ -53,8 +53,10 @@ a {
 }
 
 .navbar-header{
-    background-color: #ff0b5c;
-    padding: 30px;
+    padding: 10px;
+}
+.navbar-brand{
+    float:none;
 }
 .navbar-inverse .navbar-brand {
     color: #ffffff;
@@ -197,7 +199,6 @@ a {
     background: #ffffff;
     box-shadow: 5px 5px 5px #ccc;
     border: 3px solid rgba(128, 128, 128, 0.14);
-    min-height: 310px;
 }
 .block.product .sub {
     text-align: center;
@@ -208,11 +209,9 @@ a {
     display: block;
 }
 .block.product .quick-add-to-panel {
-    position: absolute;
+    position: relative;
     padding: 20px;
-    top: 40%;
     text-align: center;
-    display: none;
 }
 .block.product .quick-add-to-panel a{
     color: #fff;
@@ -435,48 +434,15 @@ a {
 */	.product_cart_list .product-details .amount { color:#21c2f8; }
 .product_cart_list .product-details .quantity { text-align:left; display:block; clear:both; font-size:16px; font-family:"lato",sans-serif; font-weight:normal; margin-bottom:5px; color:#333; }
 .product-details { margin:0; }
-
+.left-menu{border: 1px solid #e3e3e3;background-color: #101010;padding: 20px 0}
+.left-menu ul li{
+    margin-bottom: 10px;
+}
 
 
 
 @media (min-width: 768px) {
-    .navbar-collapse {
-        height: auto;
-        border-top: 0;
-        box-shadow: none;
-        max-height: none;
-        padding-left:0;
-        padding-right:0;
-    }
-    .navbar-collapse.collapse {
-        display: block !important;
-        width: auto !important;
-        padding-bottom: 0;
-        overflow: visible !important;
-    }
-    .navbar-collapse.in {
-        overflow-x: visible;
-    }
 
-    .navbar
-    {
-        border-radius: 0;
-        max-width: none;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .navbar-nav,
-    .navbar-nav > li,
-    .navbar-left,
-    .navbar-right,
-    .navbar-header
-    {float:none !important;}
-
-    .navbar-right .dropdown-menu {left:0;right:auto;}
-    .navbar-collapse .navbar-nav.navbar-right:last-child {
-        margin-right: 0;
-    }
 }
 
 @media (max-width: 768px) {
@@ -494,3 +460,4 @@ a {
         float: none;
     }
 }
+

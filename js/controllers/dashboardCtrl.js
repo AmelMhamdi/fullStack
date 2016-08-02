@@ -5,15 +5,6 @@
 app.controller('DashboardControleur', ['$scope', '$routeParams', 'LivresService','$http',
     function($scope, $routeParams, LivresService,$http) {
 
-//Menu height inherited document height
-        $scope.widthDoc = $("#navbar").height();
-        $scope.$watch('widthDoc', function (newVal, oldVal) {
-            if($( document  ).width()>768){
-                $("#navbar").height(0);
-                $scope.widthDoc = $( document  ).height();
-                $("#navbar").height( $scope.widthDoc);}
-        });
-
     $scope.Livres = [];
     $scope.Categories = [];
     $scope.Comptes = [];
